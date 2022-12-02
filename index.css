@@ -19,19 +19,19 @@
     word-spacing: 0px;
 }
 
-.Aritcles_by_topics{
+.navbar-Aritcles_by_topics{
     border: 2px solid #577291;
     border-radius: 10px;
     margin-top: 10px;
     text-align: center;
 }
 
-.search-button{
+.navbar-search-button{
     margin-top:10px;
     background-color: default;
 }
   
-.s_input {
+.navbar-s_input {
     height: 40px;
     border-radius: 50px;
     border:2px #767c8a solid;
@@ -43,10 +43,10 @@
     font-size: 13pt;
 
 }
-.s_input::placeholder {
+.navbar-s_input::placeholder {
     color:#767c8a
   }
-  .b_button {
+  .navbar-b_button {
     height: 38px;
     border: none;
     outline: none;

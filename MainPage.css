@@ -2,24 +2,31 @@
     box-sizing: border-box;
 }
 
-a {
+
+.subheadings a{
     background-color: transparent;
     cursor: pointer;
     text-decoration: none;
     color: inherit;
+}
+
+.subheadings{
+    color: rgb(29, 61, 99);
+    text-size-adjust: 100%;
+    overflow-wrap: break-word;
+    font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.subheadings div{
+    /* background-color: #EBEEF2; */
+    display: block;
     
 }
 
-body{
-    color: rgb(29, 61, 99);
-}
-
-div{
-    /* background-color: #EBEEF2; */
-    display: block;
-}
-
-h1{
+.subheadings h1{
     font-size: 2.5rem;
     margin: 0.67em 0px;
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
@@ -31,7 +38,7 @@ h1{
     margin-inline-end: 0px;
 }
 
-h2 {
+.subheadings h2 {
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -41,19 +48,19 @@ h2 {
     font-weight: bold;
 }
 
-html {
+/* html {
     text-size-adjust: 100%;
     overflow-wrap: break-word;
     font-family: Lato, "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
     line-height: 1.6;
     overflow-x: hidden;
-}
+} */
 
-img {
+/* img {
     height: auto;
     max-width: 100%;
-}
+} */
 
 .article-header {
     padding-bottom: 32px;
@@ -148,13 +155,13 @@ img {
 .site-footer .wrapper {
     padding-left: 80px;
     padding-right: 80px;
-    margin-left: auto;
+    margin-left: auto;  
     margin-right: auto;
     max-width: 1420px;
 }
 
 /* Style the form element with a border around it */
-form {
+.subheadings form {
     border: 4px solid #f1f1f1;
 }
   
@@ -165,7 +172,7 @@ form {
 }
   
   /* Style the input elements and the submit button */
-input[type=text], input[type=submit] {
+  .subheadings input[type=text], input[type=submit] {
     width: 100%;
     padding: 12px;
     margin: 8px 0;
@@ -175,18 +182,27 @@ input[type=text], input[type=submit] {
 }
   
   /* Add margins to the checkbox */
-input[type=checkbox] {
+  .subheadings input[type=checkbox] {
     margin-top: 16px;
 }
   
   /* Style the submit button */
-input[type=submit] {
+  .subheadings input[type=submit] {
     background-color: #04AA6D;
     color: white;
     border: none;
 }
   
-input[type=submit]:hover {
+.subheadings input[type=submit]:hover {
     opacity: 0.8;
 }
 
+.site-footer .split-image img {
+    height: auto;
+    max-width: 100%;
+}
+
+.split-image img {
+    height: auto;
+    max-width: 100%;
+}
