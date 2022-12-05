@@ -1,90 +1,230 @@
-* {
-    box-sizing: border-box;
-}
+/* Body part media query */
 
+@media (min-width:1200px) {
 
-.subheadings a{
-    background-color: transparent;
-    cursor: pointer;
-    text-decoration: none;
-    color: inherit;
-}
-
-.subheadings{
-    color: rgb(29, 61, 99);
-    text-size-adjust: 100%;
-    overflow-wrap: break-word;
-    font-family: Lato, "Helvetica Neue", Arial, sans-serif;
-    font-weight: 400;
-    line-height: 1.6;
-    overflow-x: hidden;
-}
-
-.subheadings div{
-    /* background-color: #EBEEF2; */
-    display: block;
     
+    .subheadings a{
+        background-color: transparent;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .subheadings{
+        color: rgb(29, 61, 99);
+        text-size-adjust: 100%;
+        overflow-wrap: break-word;
+        font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+        font-weight: 400;
+        line-height: 1.6;
+        overflow-x: hidden;
+        margin-top: -15px !important;
+    }
+
+    .subheadings div{
+        /* background-color: #EBEEF2; */
+        display: block;
+        
+    }
+
+    .subheadings h1{
+        font-size: 75px;
+        margin:80px 0px 40px;
+        font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+        font-weight: 500;
+        margin-bottom: 0.5em;
+        margin-top: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    
+    .subheadings h2 {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+    .article-header {
+        padding-bottom: 32px;
+        padding-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-left: 27%;
+    }
+
+    .article-titles {
+        margin-bottom: 32px;
+        margin-top: 7%;
+        /* padding-left: 28%; */
+        /* font-size: 2rem !important; */
+
+    }
+
+    .authors-byline {
+        color: rgb(87, 114, 145);
+        margin-right: 1rem;
+        /* padding-left: 28%; */
+    }
+
+    .blog-info {
+        color: rgb(87, 114, 145);
+        font-size: 0.875rem;
+        font-style: italic;
+        /* padding-left: 28%; */
+    }
+
+    .tools {
+        color: rgb(87, 114, 145);;
+        font-size: 0.875rem;
+        margin-top: 3rem;
+        /* padding-left: 28%; */
+    }
+    
+    .tools a{
+        margin-right: 0.5rem;
+        text-decoration: underline;
+        text-decoration: none;
+    }
+
+    .tools a:hover{
+        color:red;
+    }
+
+    .authors-byline a:hover{
+        color:red;
+    }
+
+    .empirical-evidence{
+        padding-left: 13%;
+        padding-right: 56.5%;
+        margin-top: 50px;
+        color: #1D3D63;
+        font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height:25.6px;
+        vertical-align: baseline;
+        text-decoration: none solid rgb(29, 61, 99);
+        text-align: start;
+        margin-bottom: 50px;
+
+    }
+
+    .empirical-evidence a{
+        color:#1D3D63
+    }
+
+    .empirical-evidence a:hover{
+        color:red;
+    }
+
+    .empirical-evidence a:focus{
+        color:rgb(120, 46, 46)
+    }
+
+    .section-heading {
+        background-color: #dbe5f0;
+        margin-bottom: 2rem;
+        width: 89%;
+        margin-left: 5.5%;
+        margin-right:5.5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 4%;
+        padding-top:4% !important;
+    }
+
+    .the-history-of-inequality{
+        color: RGB(29, 61, 99);
+        font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+        font-size:48px !important;
+        font-weight: 500 !important;
+        text-decoration: none solid rgb(29, 61, 99);
+        text-transform: none;
+        line-height: 60px;
+
+    }
+
+    .label{
+        margin-bottom: 10px;
+        color:#98A9BD;
+    }
+
+    .label::after{
+        content: " ";
+        display: block;
+        height: 14px;
+        width: 55%;
+        position: absolute;
+        background-color: #98A9BD;
+        margin-top:-20px;
+        margin-left:130px;
+    }
+
+    .list-a{
+        line-height: 20px;
+    }
 }
 
-.subheadings h1{
-    font-size: 2.5rem;
-    margin: 0.67em 0px;
-    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-    font-weight: 600;
-    line-height: 1.4;
-    margin-bottom: 0.5em;
-    margin-top: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
 
-.subheadings h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
 
-/* html {
-    text-size-adjust: 100%;
-    overflow-wrap: break-word;
-    font-family: Lato, "Helvetica Neue", Arial, sans-serif;
-    font-weight: 400;
-    line-height: 1.6;
-    overflow-x: hidden;
-} */
 
-/* img {
-    height: auto;
-    max-width: 100%;
-} */
+@media (max-width:1200px) and (min-width:900px) {
 
-.article-header {
-    padding-bottom: 32px;
-    padding-top: 32px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 24px;
-    padding-right: 24px;
-}
+    .subheadings h1{
+        font-size: 75px;
+        margin:80px 0px 40px;
+        font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+        font-weight: 500;
+        margin-bottom: 0.5em;
+        margin-top: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    
+    .subheadings h2 {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
 
-.article-titles {
-    margin-bottom: 32px;
-    margin-top: 16px;
-}
+    .article-header {
+        padding-bottom: 32px;
+        padding-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
 
-.authors-byline {
-    color: rgb(87, 114, 145);
-    margin-right: 1rem;
-}
+    .article-titles {
+        margin-bottom: 32px;
+        margin-top: 7%;
+        padding-left: 20%;
+        /* font-size: 2rem !important; */
 
-.blog-info {
-    color: rgb(87, 114, 145);
-    font-size: 0.875rem;
-    font-style: italic;
+    }
+
+    .authors-byline {
+        color: rgb(87, 114, 145);
+        margin-right: 1rem;
+    }
+
+    .blog-info {
+        color: rgb(87, 114, 145);
+        font-size: 0.875rem;
+        font-style: italic;
+    }
 }
 
 .flex-2 {
@@ -110,15 +250,6 @@
     margin: 0 -1rem;
 }
 
-.section-heading {
-    background-color: #dbe5f0;
-    margin-bottom: 2rem;
-    /*margin-left: calc(50% - 50vw);*/
-    padding-bottom: 2.5rem;
-    padding-top: 2.5rem;
-    width: 100vw;
-}
-
 .site-footer {
     background-color: #002147;
     color: #6e87a2;
@@ -136,16 +267,6 @@
     display: inline-block;
 }
 
-.tools {
-    color: rgb(87, 114, 145);;
-    font-size: 0.875rem;
-    margin-top: 3rem;
-}
-
-.tools a{
-    margin-right: 0.5rem;
-    text-decoration: underline;
-}
 
 .site-footer ul {
     list-style-type: none;
@@ -160,12 +281,7 @@
     max-width: 1420px;
 }
 
-/* Style the form element with a border around it */
-/* .subheadings form {
-    border: 4px solid #f1f1f1;
-} */
-  
-  /* Add some padding and a grey background color to containers */
+
 .container-fluid {
     padding: 20px;
     background-color:  #EBEEF2;;
@@ -205,33 +321,4 @@
 .split-image img {
     height: auto;
     max-width: 100%;
-}
-
-.section-heading .in-this-section {
-    align-items: center;
-    color: #98a9bd;
-    display: flex;
-    font-size: .9rem;
-    font-weight: 700;
-    margin: 24px 0 16px;
-    text-transform: uppercase;
-}
-
-.section-heading .in-this-section .border {
-    background-color: #a4b6ca;
-    flex: 1;
-    height: 0.7em;
-    margin-left: 1rem;
-}
-
-.section-heading h2 {
-    font-family: Playfair Display,Georgia,Times New Roman,serif;
-    font-size: 2.5rem;
-    font-weight: 400;
-    line-height: 1.25em;
-    margin: 0;
-}
-
-.section-heading h2 {
-    font-size: 3rem;
 }
