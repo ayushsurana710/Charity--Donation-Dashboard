@@ -2,54 +2,227 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>New Html</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="MainPage.css">
+    <link 
+    rel=”stylesheet” 
+    href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”rel=”nofollow” 
+    integrity=”sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I” 
+    crossorigin=”anonymous”>
 </head>
-<body>
-<navbar>
-    <div class="container-fluid navbar-new">
-        <div class="row">
-            <div class="navbar-header col-sm-3">
-                <a href="" class="navbar-brand">Our World<br>in Data</a>
+<body style="overflow-x:hidden;">
+<!-- Place for Navbar -->
+
+    <div class="main-navbar">
+        <div class="navbar-left-align">
+            Our World
+            <br>in Data
+        </div>
+
+        <div class="navbar-article-block" style="color:#77a3d4">
+            <a href="#" style="padding-left:10px;color:#6b7f99;text-decoration: none;">Articles<br>
+            <span style="color:rgba(255, 255, 255, 0.497);padding-left:10px;">by topic</span></a>
+        </div>
+        
+        <div class="div-search-box">
+            <input class="search-box" placeholder="search">
+            <i class="fa fa-search" style="color:#767c8a; margin-top:-25px; margin-left:10px"></i>
+        </div>
+        <p class="charts-goals">
+            <a href="#" style="color:#6b7f99;text-decoration: none;">All charts</a>&nbsp;&nbsp;&nbsp;
+            <a href="#" style="color:#6b7f99;text-decoration: none;">Sustainable Development Goals Tracker</a>
+        </P>
+        <p class="navbar-headings">
+            <a href="#" style="color:#6b7f99;text-decoration: none;">Latest</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#" style="color:#6b7f99;text-decoration: none;">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#" style="color:#6b7f99;text-decoration: none;">Donate</a>
+        </p>
+    </div>
+    <hr style="background-color:#c92b23;opacity: 1; ; height:5px; width:100%;margin-top:-0px" />
+
+<!-- Navbar ends here -->
+
+
+<!-- Main body starts here -->
+
+<!-- Div one -->
+    <div class="container-fluid subheadings">
+        <header class="article-header">
+            <div class="article-titles">
+                <h1>Income Inequality</h1>
+                <p></p>
+            </div>
+            
+            <div class="authors-byline">
+                <a href="#">by Abhishek Rishabh and Ayush Surana</a>
             </div>
 
-            <div class="col-sm-1 Aritcles_by_topics dropdown" style="color:#767c8a">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Articles<br><b style="color:white">by topic</b> <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li>Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
+            <div class="blog-info">
+                First published on December 2022;Updated on December 2022.
             </div>
-            <div class="col-sm-6 search-button">
-                <div class="row">
-                    <div class="main col-sm-7">
-                        <input placeholder="Search .." class="s_input" /><button id="submit_button" class="b_button"><i class="fa fa-search"></i></button>
-                        <div>
-                            <a href="#" class="navbar-links">All charts&nbsp;&nbsp;</a>
-                            <a href="#" class="navbar-links">Sustainable Development Goals Tracker</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-5 navbar-redirect">
-                        <a href="#" class="navbar-redirect">Latest&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                        <a href="#" class="navbar-redirect">About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                        <a href="#" class="navbar-redirect">Donate</a>
-                    </div>
-                </div>
-                
+
+            <div class="tools">
+                <a href="#">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons" class="svg-inline--fa fa-creative-commons " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                        <path fill="currentColor" d="M245.83 214.87l-33.22 17.28c-9.43-19.58-25.24-19.93-27.46-19.93-22.13 0-33.22 14.61-33.22 43.84 0 23.57 9.21 43.84 33.22 43.84 14.47 0 24.65-7.09 30.57-21.26l30.55 15.5c-6.17 11.51-25.69 38.98-65.1 38.98-22.6 0-73.96-10.32-73.96-77.05 0-58.69 43-77.06 72.63-77.06 30.72-.01 52.7 11.95 65.99 35.86zm143.05 0l-32.78 17.28c-9.5-19.77-25.72-19.93-27.9-19.93-22.14 0-33.22 14.61-33.22 43.84 0 23.55 9.23 43.84 33.22 43.84 14.45 0 24.65-7.09 30.54-21.26l31 15.5c-2.1 3.75-21.39 38.98-65.09 38.98-22.69 0-73.96-9.87-73.96-77.05 0-58.67 42.97-77.06 72.63-77.06 30.71-.01 52.58 11.95 65.56 35.86zM247.56 8.05C104.74 8.05 0 123.11 0 256.05c0 138.49 113.6 248 247.56 248 129.93 0 248.44-100.87 248.44-248 0-137.87-106.62-248-248.44-248zm.87 450.81c-112.54 0-203.7-93.04-203.7-202.81 0-105.42 85.43-203.27 203.72-203.27 112.53 0 202.82 89.46 202.82 203.26-.01 121.69-99.68 202.82-202.84 202.82z"></path>
+                    </svg> &nbsp;
+                    <u>Reuse our work freely</u>
+                </a>
+
+                <a href="#">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="book" class="svg-inline--fa fa-book " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor" d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"></path>
+                    </svg>&nbsp;
+                    <u>Cite this Research</u>
+                </a>
+            </div>
+        </header>
+    </div>
+<!-- Div one close -->
+
+<!-- div 1 minor open -->
+    <div class="container-fluid" style="background-color:white !important">
+        <div class="row">
+            <div class="empirical-evidence">
+                This entry presents the empirical evidence of how inequality between 
+                incomes has changed over time, and how the level of inequality varies 
+                between different countries. We also present some of the research on 
+                the factors driving the inequality of incomes.<br><br>
+                A related entry on Our World in Data presents the evidence on 
+                <a href="#">global economic inequality</a>
+                . That entry looks at economic history and how 
+                global inequality has changed and is predicted to continue changing 
+                in the future.
             </div>
         </div>
-        <hr style="background-color:#ce261e; height:10px; width:100%;" />
+    </div>
+<!-- div 1 minor close -->
+
+<!-- dib 2 open -->
+
+    <div class="section-heading subheadings">
+        <div>
+            <h2 class="the-history-of-inequality" id="the-history-of-inequality">The history of inequality
+                <a class="deep-link" href="#the-history-of-inequality"></a>
+            </h2>
+        </div>
+        <div class="in-this-section">
+                <div class="label">
+                   <b>IN THIS SECTION</b>
+                </div>
+        </div>
+        <div class="list-a">
+            <p class="inequility-style" style="margin-bottom:3px;"><a href="#how-unequal-were-pre-industrial-societies"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span class="underline-css">How unequal were pre-industrial societies?</span></a></p>
+            <p class="inequility-style" style="margin-bottom:3px;"><a href="#how-has-inequality-in-the-uk-changed-over-the-very-long-run"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span class="underline-css">How has inequality in the UK changed over the very long run?</span></a></p>
+            <p class="inequility-style" style="margin-bottom:3px;"><a href="#within-country-inequality-in-rich-countries"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span class="underline-css">Within-country inequality in rich&nbsp;countries</span></a></p>
+            <p class="inequility-style" style="margin-bottom:3px;"><a href="#inequality-of-disposable-incomes-over-the-long-run"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span class="underline-css">Inequality of disposable incomes over the long run</span></a></p>
+        </div>
+    </div>
+
+<!-- div 2 close -->
+    <div class="section-heading subheadings">
+        <form action="action_page.php">
+            <div class="container-fluid">
+                <h2>Subscribe to our Newsletter</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum illo praesentium, perferendis, dolorum quos, adipisci officiis odio totam dolore recusandae natus deleniti nobis quia! Iusto nam nostrum eligendi voluptas debitis?</p>
+            </div>
+            
+            <div class="container" style="background-color:white">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="text" placeholder="Email address" name="mail" required>
+                <label>
+                <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                </label>
+            </div>
+            
+            <div class="container">
+                <input type="submit" value="Subscribe">
+            </div>
+            </form>
     </div>
     
-</navbar>
+
+<!-- New element I am  construction is here -->
+
+    <div class="container-fluid split-image" style="background-color:white;">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-4">
+                In an effort to answer this question Milanovic, Lindert and Williamson investigated the estimates for levels of pre-industrial inequality in their 2008 paper ‘Ancient Inequality’. Most of their estimates (18 of the 28) of pre-industrial inequalities are based on so-called ‘social tables’. In these tables, social classes (or groups) ‘are ranked from the richest to the poorest with their estimated population shares and average incomes’.<sup>1</sup><br><br>
+                The following graph demonstrates the level of economic inequality in pre-industrial societies in relation to the levels of prosperity in those same societies. Inequality is measured with the Gini index (explained below) and prosperity is measured by the gross domestic income per capita, adjusted for price differences to make comparisons in a common currency possible.<br><br>
+                The graph also shows a curve labelled IPF; this is the Inequality Possibility Frontier. The idea behind this curve is that in a very poor society inequality cannot be very high: Imagine if the average level of income were just the bare minimum to survive, in such an economy there could not possibly be any inequality as this would necessarily mean that some people have to be below the minimum income level on which they could survive.<br><br>
+                When average income is a little higher it is possible to have some small level of inequality, and the IPF shows how the maximum possible inequality increases with higher average income. The authors found that many pre-industrial societies are clustered along the IPF. This means that in these societies, inequality was as high as it possibly could have been.<br><br>
+                In the cases of Holland and England, we see that during their early development they moved away from the IPF and the level of inequality was no longer at the maximum.
+            </div>
+            
+            <div class="col-sm-5 image">
+                <img src="test_image.png" class="image_test" id="image_test">
+    
+            </div>
+        </div>
+    </div>
+
+<!-- It ends here -->
+
+
+<!-- Footer starts here -->
+    <footer class="site-footer">
+        <div class="wrapper">
+            <div class="owid-row">
+                <div class="owid-col owid-col--lg-1">
+                    <ul>
+                        <li><a href="#" data-track-note="footer-navigation">About</a></li>
+                        <li><a href="#" data-track-note="footer-navigation">Contact</a></li>
+                        <li><a href="#" data-track-note="footer-navigation">Feedback</a></li>
+                        <li><a href="#" data-track-note="footer-navigation">Jobs</a></li>
+                        <li><a href="#" data-track-note="footer-navigation">Funding</a></li>
+                        <li><a href="#" data-track-note="footer-navigation">How to use</a></li>
+                        <li><a href="#" data-track-note="footer-navigation">Donate</a></li>
+                        <li><a href="/privacy-policy" data-track-note="footer-navigation">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="owid-col owid-col--lg-1">
+                    <ul>
+                        <li><a href="/blog" data-track-note="footer-navigation">Latest work</a></li>
+                        <li><a href="/charts" data-track-note="footer-navigation">All charts</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="https://twitter.com/OurWorldInData" data-track-note="footer-navigation">Twitter</a></li>
+                        <li><a href="https://www.facebook.com/OurWorldinData" data-track-note="footer-navigation">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/ourworldindata/" data-track-note="footer-navigation">Instagram</a></li>
+                        <li><a href="https://github.com/owid" data-track-note="footer-navigation">GitHub</a></li>
+                        <li><a href="/feed" data-track-note="footer-navigation">RSS Feed</a></li>
+                    </ul>
+                </div>
+                <div class="owid-col owid-col--lg-1">
+                    <div class="logos">
+                        <a href="https://www.oxfordmartin.ox.ac.uk/global-development" class="partner-logo" data-track-note="footer-navigation">
+                            <img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo" loading="lazy">
+                        </a>
+                        <a href="/owid-at-ycombinator" class="partner-logo" data-track-note="footer-navigation">
+                            <img src="https://ourworldindata.org/yc-logo.png" alt="Y Combinator logo" loading="lazy">
+                        </a>
+                    </div>
+                </div>
+                <div class="owid-col flex-2">
+                    <div class="legal">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore facere sequi sapiente quas, fuga mollitia dolorem, tempore nisi qui error nobis, harum quisquam aliquam labore earum quo? Autem, iusto perferendis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- Footer ends here -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
 </body>
   </html>
-  

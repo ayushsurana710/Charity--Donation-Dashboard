@@ -1,76 +1,143 @@
-.navbar-new{
-    margin-bottom:10px;
+.main-navbar{
+    margin-top: -20px;
+    height:110px;
     background-color: #002147;
-    border-radius: 2%;
-    height:100px;
+    width:100%;
 }
 
-.navbar-header{
-    color:#FFFFFF;
-    font-size: 28.8px;
+.navbar-left-align{
     text-align: center;
-    font-weight: 100px;
-    line-height: 1.1;
-    margin-top: 15px;
-    font-family: 'Lato','Helvetica Neue','Arial,sans-serif';
-    line-height:31.68px;
-    vertical-align:baseline;
-    letter-spacing:normal;
-    word-spacing: 0px;
+    color: #f8f9fa;
+    position: absolute;
+    left: 10%;
+    top: 12px;
+    font-family: Lato, "Helvetica Neue", "Arial", "Sans-serif";
+    line-height: 110%;
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 300;
+    background-color: transparent;
 }
 
-.Aritcles_by_topics{
-    border: 2px solid #577291;
-    border-radius: 10px;
-    margin-top: 10px;
-    text-align: center;
+.div-search-box{
+    position: absolute;
+    left: 36%;
+    margin-top: 37px;
+    height:30px;
 }
 
-.search-button{
-    margin-top:10px;
-    background-color: default;
-}
-  
-.s_input {
-    height: 40px;
-    border-radius: 50px;
-    border:2px #767c8a solid;
+.search-box{
+    border-radius: 20px;
+    border:1px #767c8a solid;
+    height:35px;
+    width:100%;
     background-color: #002147;
     outline: none;
-    width: 300px;
     color:#767c8a;
-    padding: 13px;
-    font-size: 13pt;
-
+    padding: 0px 30px;
 }
-.s_input::placeholder {
-    color:#767c8a
-  }
-  .b_button {
-    height: 38px;
-    border: none;
-    outline: none;
-    border-radius: 0px 4px 4px 0px;
-    width: 2rem;
-    color: #767c8a;
-    background-color: #002147;
+
+.search-box::placeholder {
+    font-size: 20px;
+    color:#6b7f99;
+    display: block;
   }
 
-.navbar-links{
-    color:#767c8a;
-    text-decoration:none;
-    padding-top: 10px;
-}
- 
-.navbar-redirect{
-    color:#9fa0a2;
-    font-size: 18px;
-    text-decoration:none;
-    margin-top:5px;
-    margin-left:-40px;
+.charts-goals{
+    position:absolute;
+    left:36%;
+    margin-top:75px;
+    color:#6b7f99;
+    font-size: 95%;
+    margin-left:-5px;
 }
 
-.navbar-horizontal{
-    background-color:#ce261e ;
-    height:10px;
-}
+@media only screen and (max-width: 1400px) {
+    .navbar-headings{
+        position:absolute;
+        left:60%;
+        color:#6b7f99;
+        margin-top:42px;
+        font-size:110%
+    }
+
+    .navbar-article-block{
+        border:1px solid rgba(255, 255, 255, 0.482);
+        border-radius: 10px;
+        /* text-align: center; */
+        position: absolute;
+        height: 65px;
+        margin-top: 32px;
+        left: 26%;
+        color: white;
+        width: 102.9px;
+        font-size: 18px;
+        margin-left:-5px; 
+        padding: 2px;
+    }
+  }
+
+
+  @media screen and (min-width: 1400px) {
+    .navbar-headings{
+        position:absolute;
+        left:57%;
+        color:#6b7f99;
+        margin-top:42px;
+        font-size:110%
+    }
+
+    .navbar-article-block{
+        border:1px solid rgba(255, 255, 255, 0.482);
+        border-radius: 10px;
+        /* text-align: center; */
+        position: absolute;
+        height: 65px;
+        margin-top: 32px;
+        left: 27.5%;
+        color: white;
+        width: 102.9px;
+        font-size: 18px;
+        margin-left:-5px; 
+        padding: 2px;
+    }
+  }
+
+  @media screen and (max-width: 1220px) {
+    .navbar-headings{
+        position:absolute;
+        left:65%;
+        color:#6b7f99;
+        margin-top:42px;
+        font-size:110%
+    }
+
+    .navbar-article-block{
+        border:1px solid rgba(255, 255, 255, 0.482);
+        border-radius: 10px;
+        /* text-align: center; */
+        position: absolute;
+        height: 65px;
+        margin-top: 32px;
+        left: 24%;
+        color: white;
+        width: 102.9px;
+        font-size: 18px;
+        margin-left:-5px; 
+        padding: 2px;
+    }
+
+    .navbar-left-align{
+        text-align: center;
+        color: #f8f9fa;
+        position: absolute;
+        left: 7%;
+        top: 12px;
+        font-family: Lato, "Helvetica Neue", "Arial", "Sans-serif";
+        line-height: 110%;
+        display: block;
+        font-size: 1.8rem;
+        font-weight: 300;
+        background-color: transparent;
+    }
+  }
