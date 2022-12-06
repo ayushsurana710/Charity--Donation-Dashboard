@@ -2,6 +2,43 @@
 
 @media (min-width:1200px) {
 
+    .income-equality{
+        display: block;
+        font-family: Playfair Display,Georgia,Times New Roman,serif;
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 1.4;
+        margin: 0.67em 0;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .empirical-evidence p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        margin-top: 0;
+    }
+
+    .site-footer {
+        background-color: #002147;
+        color: #6e87a2;
+        padding: 3rem 0;
+    }
+
+    .site-footer ul a {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        transition: color .15s ease;
+        cursor: pointer;
+        background-color: transparent;
+    }
+
     
     .subheadings a{
         background-color: transparent;
@@ -55,7 +92,7 @@
         margin-right: auto;
         padding-left: 24px;
         padding-right: 24px;
-        padding-left: 27%;
+        padding-left: 80px;
     }
 
     .article-titles {
