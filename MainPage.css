@@ -23,6 +23,10 @@
 
 @media (min-width:1200px) {
 
+    .container-fluid subheadings{
+        padding-left: 0px;
+    }
+
 
     .income-equality{
         display: block;
@@ -96,8 +100,8 @@
     .article-header {
         padding-bottom: 32px;
         padding-top: 32px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 80px;
+        margin-right: 80px;
         padding-left: 24px;
         padding-right: 24px;
         padding-left: 27%;
@@ -427,6 +431,10 @@
 
 .owid-col--lg-1, .owid-col--lg-auto {
     flex: 1;
+}
+
+.row{
+    padding-bottom: 1.2rem;
 }
 
 .owid-row {
