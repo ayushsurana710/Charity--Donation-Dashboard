@@ -23,7 +23,7 @@
 
 @media (min-width:1200px) {
 
-    .container-fluid subheadings{
+    .subheadings{
         padding-left: 0px;
     }
 
@@ -234,6 +234,78 @@
         vertical-align: baseline;
         letter-spacing: normal;
     }
+
+
+
+    /* Toggle element */
+    .interactive-charts{
+        padding : 2%;
+        padding-left:5%;
+        width:89%;
+        margin-left: 5.5%;
+        margin-bottom:80px;
+        color:#1D3D63;
+        background-color: #EBEEF2;
+        font-family : "Playfair Display", Georgia, "Times New Roman", serif;
+        font-size: 36px;
+        line-height:45px;
+        font-weight: 400;
+    }
+
+    .interactive-charts button:hover{
+        padding-left:6%;
+    }
+    
+    .interactive-charts .mydiv{
+        display:none;
+        padding: 1%;
+        padding-top:3%;
+        height:550px;
+    }
+
+    .interactive-charts button{
+        border:none;
+    }
+
+    .interactive-charts .chart-section-1{
+        height:480px;
+        overflow-x: hidden;
+    }
+
+    .interactive-charts .chart-section-1 img{
+        width: 100%;
+        height:auto;
+        /* padding: 5%; */
+        display:block;
+    }
+
+    .interactive-charts .active{
+        list-style: none;
+        float: right;
+        /* margin-top: -55px; */
+        /* color: #f4f6f6;   */
+    }
+
+    .interactive-charts .active li{
+        display: inline;
+    }
+
+    .interactive-charts .chart-text{
+        color:#1D3D63;
+        font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+        font-size:14px;
+        line-height:16.8px;
+    }
+
+    .interactive-charts a{
+        text-decoration: none;
+    }
+    
+    .chart-section-2 img{
+        margin-left:10%;
+        width:100%;
+        height:420px;
+    }
 }
 
 
@@ -414,6 +486,76 @@
         vertical-align: baseline;
         letter-spacing: normal;
     }
+
+    /* Toggle css */
+    .interactive-charts{
+        padding : 2%;
+        padding-left:5%;
+        width:89%;
+        margin-left: 5.5%;
+        margin-bottom:80px;
+        color:#1D3D63;
+        background-color: #EBEEF2;
+        font-family : "Playfair Display", Georgia, "Times New Roman", serif;
+        font-size: 36px;
+        line-height:45px;
+        font-weight: 400;
+    }
+
+    .interactive-charts button:hover{
+        padding-left:6%;
+    }
+    
+    .interactive-charts .mydiv{
+        display:none;
+        padding: 1%;
+        padding-top:3%;
+        height:550px;
+    }
+
+    .interactive-charts button{
+        border:none;
+    }
+
+    .interactive-charts .chart-section-1{
+        height:480px;
+        overflow-x: hidden;
+    }
+
+    .interactive-charts .chart-section-1 img{
+        width: 100%;
+        height:auto;
+        /* padding: 5%; */
+        display:block;
+    }
+
+    .interactive-charts .active{
+        list-style: none;
+        float: right;
+        /* margin-top: -55px; */
+        /* color: #f4f6f6;   */
+    }
+
+    .interactive-charts .active li{
+        display: inline;
+    }
+
+    .interactive-charts .chart-text{
+        color:#1D3D63;
+        font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+        font-size:14px;
+        line-height:16.8px;
+    }
+
+    .interactive-charts a{
+        text-decoration: none;
+    }
+    
+    .chart-section-2 img{
+        margin-left:10%;
+        width:100%;
+        height:420px;
+    }
 }
 
 .flex-2 {
@@ -469,7 +611,7 @@
 }
 
 
-.container-fluid {
+.top-element {
     background-color:  #EBEEF2;;
 }
   
